@@ -24,7 +24,7 @@ for row in csvfile:
 
         for letter in word:
 
-            outfile.write(encryption[letter])
+            outfile.write(encryption[letter] + ' ')
 
 #check dicitonary with encryption
 
